@@ -1,0 +1,55 @@
+body {
+  background-color: #020513;
+  color: white;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+.title {
+  font-size: 96px;
+}
+.desc {
+  font-size: 58px;
+}
+.icon {
+  height: 48px;
+  width: 48px;
+  -webkit-animation: spin 4s linear infinite;
+  -moz-animation: spin 4s linear infinite;
+  animation: spin 4s linear infinite;
+}
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.city-country {
+  font-size: 32px;
+}
+.w-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.temp {
+  font-size: 50px;
+}
+.weather {
+  font-size: 40px;
+}
+.unit {
+  font-size: 50px;
+  margin-left: 20px;
+  cursor: pointer;
+  color: #414ceb;
+}
